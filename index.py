@@ -93,4 +93,3 @@ class PropertyManagementSystem:
                     receipt.generate_receipt()
 
 
-
