@@ -92,4 +92,3 @@ class PropertyManagementSystem:
                     receipt = Invoice(unit.tenant, 200)
                     receipt.generate_receipt()
 
-
