@@ -5,7 +5,7 @@ class Property:
         self.units = []
 
     def add_unit(self, unit):
-        self.units.append(unit)
+        self.units.append(unit
 
     def view_units(self):
         for unit in self.units:
