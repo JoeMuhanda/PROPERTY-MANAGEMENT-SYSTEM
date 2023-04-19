@@ -93,4 +93,4 @@ class PropertyManagementSystem:
                     receipt.generate_receipt()
 a
 A
-C
+C;
