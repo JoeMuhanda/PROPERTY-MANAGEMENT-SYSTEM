@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     die("Connection failed: " . $conn->connect_error);
   }
 
-  // Add property
+  // Add property to the sytem
   $sql = "INSERT INTO properties (name, address, owner_name) VALUES ('$name', '$address', '$owner_name')";
   if ($conn->query($sql) === TRUE) {
     header("Location: index.php");
