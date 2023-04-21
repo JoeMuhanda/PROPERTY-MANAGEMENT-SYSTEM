@@ -49,7 +49,7 @@ $conn->close();
 
 
 
-
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 
 <!-- property_management_system/add_property.php -->
