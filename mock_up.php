@@ -12,6 +12,7 @@ $password = "password";
 $dbname = "property_management_system";
 
 // Connecting databse with  the server
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
@@ -19,6 +20,7 @@ if ($conn->connect_error) {
 }
 
 // This will get thed properties of PMS in the databasee 
+
 $sql = "SELECT * FROM properties";
 $result = $conn->query($sql);
 $properties = array();
@@ -32,7 +34,6 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 ?>
-
 
 <!DOCTYPE html>
 <html>
