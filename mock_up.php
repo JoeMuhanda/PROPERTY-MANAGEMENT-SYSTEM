@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
   }
 }
 
-// Close connection
+// Close server connection
 $conn->close();
 
 ?>
