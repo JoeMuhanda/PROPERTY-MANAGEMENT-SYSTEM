@@ -47,6 +47,11 @@ $conn->close();
 </body>
 </html>
 
+
+
+
+
+
 <!-- property_management_system/add_property.php -->
 
 <?php
