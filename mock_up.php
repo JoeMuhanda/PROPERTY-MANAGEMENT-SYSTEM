@@ -18,7 +18,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-// Get properties
+// This will get thed properties of PMS in the databasee 
 $sql = "SELECT * FROM properties";
 $result = $conn->query($sql);
 $properties = array();
