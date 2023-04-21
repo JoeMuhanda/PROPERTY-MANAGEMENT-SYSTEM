@@ -11,10 +11,9 @@ $username = "username";
 $password = "password";
 $dbname = "property_management_system";
 
-// Create connection
+// Connecting databse with  the server
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
