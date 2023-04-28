@@ -2,7 +2,7 @@ class Property:
     def __init__(self, address, owner):
         self.address = address
         self.owner = owner
-        self.units = []ma
+        self.units = []maq
 
     def add_unit(self, unit):
         self.units.append(unit)
