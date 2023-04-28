@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $password = "password";
   $dbname = "property_management_system";
 
-  // Create connectionreate con
+  // Create connectionreate c
   $conn = new mysqli($servername, $username, $password, $dbname);
 
   // Check connection
