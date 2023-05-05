@@ -92,3 +92,4 @@ class PropertyManagementSystem:
                     receipt = Invoice(unit.tenant, 200)
                     receipt.generate_receipt()
 #this is the end 
+<incl>
