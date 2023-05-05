@@ -91,4 +91,4 @@ class PropertyManagementSystem:
                     self.invoice_tenant(unit.tenant)
                     receipt = Invoice(unit.tenant, 200)
                     receipt.generate_receipt()
-a
+#this is the end 
