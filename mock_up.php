@@ -145,3 +145,50 @@ $sql = "SELECT * FROM properties WHERE id = $id";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   $
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    kjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+    
+    _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+<!-- property_management_system/view_property.php -->
+
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+<?php
+
+$id = $_GET['id'];
+
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "property_management_system";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// Get property
+$sql = "SELECT * FROM properties WHERE id = $id";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+  $
